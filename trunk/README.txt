@@ -1,9 +1,9 @@
 ============================| Intro |===============================
 
-XBOO XP is a multiboot transfer software designed with winXP/2000 in mind, but 
+xbooxp is a multiboot transfer software designed with winXP/2000 in mind, but 
 should work in Win98/95. This program will NOT work in raw DOS mode.
 
-XBOO cable is cheap and easy to build. Costs about $5 to build. Plus you can send 
+Xboo cable is cheap and easy to build. Costs about $5 to build. Plus you can send 
 multiboot images of up to 256kB, and upload speed is fast. This program can send a 256kB
 multiboot image in about 8.1 - 8.5 seconds in my AMD 2100++ CPU. With the delay 
 setting, its a little slower.
@@ -41,15 +41,15 @@ http://www.geekhideout.com/iodll.shtml
 
 ============================| Usage |===============================
 
-Run.bat is a batch file included for your ease. Edit the file with notepad. To run XBOOXP, double 
+Run.bat is a batch file included for your ease. Edit the file with notepad. To run xbooxp, double 
 click the file. To edit the file, right click and choose edit.
 
-Make sure your compiled .mb file is in the same directory as XBOOXP. Or you can move XBOOXP into
+Make sure your compiled .mb file is in the same directory as xbooxp. Or you can move xbooxp into
 your program source directory.
 
-To use XBOOXP, you will need to edit this file to suit you purposes. This is a basic explanation:
+To use xbooxp, you will need to edit this file to suit you purposes. This is a basic explanation:
 
-XBOOXP yourfile.mb -argument
+xbooxp yourfile.mb -argument
 
 the arguments :
 			-h		use this to upload multiboot file without a valid
@@ -69,12 +69,12 @@ the arguments :
 					testing purposes.
 
 
-To see the help screen, just type XBOOXP, and you will see the above message(or similar).
+To see the help screen, just type xbooxp, and you will see the above message(or similar).
 
 So, if your parellel port address is 0x278, you want delay=2, and you want to upload a multiboot file 
 named matrix.mb without a valid header(too lazy to use GBAFIX), just put this line in run.bat:
 
-	XBOOXP matrix.mb -278 -h -d2
+	xbooxp matrix.mb -278 -h -d2
 
 Simple as pie.
 
@@ -106,7 +106,7 @@ Why use a batch file? Cause everybody's is just too lazy to type out "xbooxp pro
 EVERYTIME in CLI just to test their program, right?
 
 
-3. How do i build a Xboo cable?
+3. How do i build a xboo cable?
 
 It's REALLY EASY.
 No need to be an engineer. But making one will make others believe you are        ;)
